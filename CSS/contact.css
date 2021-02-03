@@ -1,0 +1,123 @@
+body, html {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background: rgba(213, 206, 206, 0.435);
+
+}
+
+header {
+  padding: 15px 20px;
+}
+
+.logo {
+  float: left;
+  width: 120px; 
+  height: 120px;
+  padding: 14px 100px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  display: inline;
+}
+
+#navbarr {
+  margin: 5px 50px;
+}
+.navbar {
+  top: 5px;
+  float: right;
+}
+.navbar a {
+  text-decoration: none;
+  font-family: 'Gill Sans', sans-serif;
+  color: black;
+  text-align: center;
+  padding: 14px 14px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.navbar a:hover {
+  padding: 35px;
+  border-bottom: 2px solid red;
+  font: 1.2em;
+  font-weight: bolder;
+  background-color: red;
+}
+
+.Container {
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+
+.tekstikontaktM {  
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  text-align: center;
+  padding: 14px 14px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  margin-right: 25%;
+
+}
+
+.tekstikontaktV {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.row {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 33px;
+}
+
+div.emri5 {
+  background-color: black;
+  width: 250px;
+  height: 25px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+footer{
+  background-color: red;
+  font-family: Tahoma, Arial;
+  font-size: 0.7em;
+  color: White;
+  position: relative;
+  height: 3em;
+}
+
+.tekstifooter {
+text-transform: uppercase;
+justify-content: center;
+text-align: center;
+font-size: 15px;
+padding-top: 8px;
+}
+
+#error-message{
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 12px;
+}

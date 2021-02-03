@@ -1,0 +1,262 @@
+body, html {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(213, 206, 206, 0.435);
+
+}
+
+
+/*Fillimi dizajnit header*/
+.logo {
+    float: left;
+    width: 120px; 
+    height: 120px;
+    padding: 14px 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+li {
+    display: inline;
+}
+
+#navbarr {
+    margin: 5px 50px;
+}
+.navbar {
+    top: 5px;
+    float: right;
+}
+.navbar a {
+    text-decoration: none;
+    font-family: 'Gill Sans', sans-serif;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  
+.navbar a:hover {
+    padding: 35px;
+    border-bottom: 2px solid red;
+    font: 1.2em;
+    font-weight: bolder;
+    background-color: red;
+  }
+
+header {
+    padding: 15px 20px;
+}
+/*Mbarimi dizajnit header*/
+
+
+/*Fillimi dizajnit container*/
+.contaniner {
+    margin: auto;
+    width: 60%;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+  
+  }
+
+h1{
+    width:30px;
+    margin-top:-10px;
+    margin-left:5px;
+}
+
+.solid {
+    border-style: solid;
+    height: 115px;
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    border-color: #6f441b;;
+    border-radius: 5px;
+
+}
+
+.tekstiAU { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #6f441b;;
+}
+/*Mbarimi dizajnit container*/
+
+
+/*Fillimi dizajnit per blog*/
+.contaniner2 {
+    margin: 0 5vw;
+}
+
+main .site-content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+main .post-content{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+main .site-content .post-content > .post-image, .post-title{
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+main .post-content .post-content > .post-image, .post-info{
+    background-color: rgb(218, 125, 125);
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 20vw;
+    border-radius: 3rem;
+}
+
+main .site-content > .post-image > div{
+    overflow: hidden;
+}
+
+main .site-content .post-content > .post-image .img{
+    width: 85%;
+    transition: all 1s ease;
+}
+
+main .site-content .post-content > .post-image .img:hover{
+    transform: scale(1.1);
+}
+
+main .site-content .post-content > .post-image .post-info span{
+    margin: 0.7rem;
+}
+
+main .post-content .post-title a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.site-content .post-content .post-title .post-btn{
+    border-radius: 0;
+    padding: .7rem 1.5rem;
+    background-color: rgb(218, 125, 125);
+    border: none;
+}
+.site-content .pagination{
+    text-align: center;
+    margin: 4rem 0;;
+}
+.site-content .pagination a{
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+    padding: .6rem .9rem;
+    border-radius: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.pages{
+background-color: grey
+}
+.pages:hover {
+    background-color:red;
+}
+
+.site-content > .sidebar .category-list{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-content > .sidebar .category-list .list-items{
+    background-color: red;
+    color:white;
+    padding: .4rem 1rem;
+    margin: .8rem 0;
+    border-radius: 3em;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-content > .sidebar .category-list .list-items a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.site-content .sidebar .popular-post .post-content{
+    padding: 1rem 0;
+}
+
+.site-content .sidebar .popular-post h2{
+    padding-top: 8rem;
+}
+
+.site-content .sidebar .popular-post .post-info{
+    padding: .4rem .1rem !important;
+    bottom: 0rem !important;
+    left: 2rem !important;
+    border-radius: 0rem !important;
+    background-color : white !important;
+}
+
+.site-content .sidebar .popular-post .post-title a{
+    font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter{
+    padding-top: 10em;
+}
+
+.site-content .sidebar .newsletter .form-element{
+    padding-top: .5rem 2rem;
+}
+
+.site-content .sidebar .newsletter .input-element{
+    width: 80%;
+    height: 1.9rem;
+    padding: .3em .5rem;
+    font-family: 1rem;
+} 
+
+.site-content .sidebar .newsletter .form-btn{
+    border-radius: 0;
+    border: none;
+    padding: .8rem 34%;
+    margin: 1rem 0;
+    background-color: red;
+}
+/*Mbarimi dizajnit per blog*/
+
+
+/*Fillimi- FOOTERI(pjesa poshte)*/
+footer{
+    background-color: red;
+    font-family: Tahoma, Arial;
+    font-size: 0.7em;
+    color: White;
+    position: relative;
+    height: 3em;
+}
+
+.tekstifooter {
+text-transform: uppercase;
+justify-content: center;
+text-align: center;
+font-size: 15px;
+padding-top: 8px;
+}
+/*Mbarimi- FOOTERI(pjesa poshte)*/

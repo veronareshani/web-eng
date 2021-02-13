@@ -199,21 +199,22 @@ li {
 }
 
 /* Pjesa Slider */
-
-
 .showSlide {  
- display:block;
+    display: none  
 }  
-.showSlide img {  
-    width: 100%;  
-}  
+    .showSlide img {  
+        width: 100%;  
+    }  
 .slidercontainer {  
-    max-width: 1000px;  
-    position: relative;  
-    margin: auto;  
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;  
 }  
 .left, .right {  
-    cursor: pointer;   
+    cursor: pointer;  
+    position: absolute;  
     top: 50%;  
     width: auto;  
     padding: 16px;  
@@ -267,6 +268,8 @@ li {
         opacity: 1  
     }  
 }  
+
+
 
 /* Pjesa Slider */
 

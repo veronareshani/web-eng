@@ -204,9 +204,9 @@ li {
 .showSlide {  
     display: none  
 }  
-    .showSlide img {  
-        width: 100%;  
-    }  
+.showSlide img {  
+    width: 100%;  
+}  
 .slidercontainer {  
     max-width: 1000px;  
     position: relative;  

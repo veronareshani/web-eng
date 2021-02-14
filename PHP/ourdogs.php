@@ -15,20 +15,11 @@
             </div> 
             <!--End of logo div-->
             
-              <nav class="navbar" id="navbarr"> <!--Beginning of nav-->
-                  <ul>
-                    <li><a href="index.html">SD</a></li>
-                    <li><a href="about.html">Rreth Nesh</a></li>
-                    <li><a href="ourdogs.html">Kafshet tona</a></li>
-                    <li><a href="blog.html">Bllogu</a></li>
-                    <li><a href="contact.html">Sugjerimet</a></li>
-                     <li><a href="../PHP/register.php">Regjistrohu</a></li>
-                  </ul>
-                </nav><!--End of navbar-->
+            <?php include '../inc/menu.php'?><!--End of navbar-->
       <!--Beginning of header div-->
 		</header>
         <main>
-         
+            
 
             
 
@@ -41,6 +32,7 @@
 
         </main>
 
-        <footer> <p class="tekstifooter"> 2020 Dhjetor </p></footer>
+        <?php
+include '../inc/footer.php' ?>
     </body>
 </html>

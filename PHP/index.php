@@ -1,3 +1,5 @@
+<?php 
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,17 +17,7 @@
             <div class="logoofWeb"> <!--Beginning of logo div-->
                <a href="#"> <img class="logo" src="../images/doglogo1.png" alt="Logo"> </a>
             </div> <!--End of logo div-->
-            
-            <nav class="navbar" id="navbarr"> <!--Beginning of nav-->
-                <ul>
-                    <li><a href="index.html">SD</a></li>
-                    <li><a href="about.html">Rreth Nesh</a></li>
-                    <li><a href="ourdogs.html">Kafshet tona</a></li>
-                    <li><a href="blog.html">Bllogu</a></li>
-                    <li><a href="contact.html">Sugjerimet</a></li>
-                    <li><a href="../PHP/register.php">Regjistrohu</a></li>
-                </ul>
-            </nav><!--End of navbar-->
+            <?php include '../inc/menu.php'?><!--End of navbar-->
       <!--Beginning of header div-->
 		</header>
     
@@ -41,21 +33,12 @@
     <div class="Row2" id="testt"> <!--Beginner of cards container-->
         <div class="Column2">
             <img src="../images/phone.png" alt="puna" height="120px;" width="120px;">
-            <!-- <h3>+38344000000</h3> -->
-            <!-- <h5  class="card-header2">Na kontaktoni ne kete nr</h5>
-            <p class="card-text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a href="contact.html"><button class="card-buttons"> Shiko me shume </button></a> -->
         </div>
         <div class="Column2"><img src="../images/heart.png" alt="puna" height="120px;" width="120px;">
-            <!-- <h5 class="card-header2">Shpeto nje jete ne rruge </h5>
-            <p class="card-text2"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-            <button class="card-buttons"> Shiko me shume </button> -->
         </div>
       
         <div class="Column2"> <img src="../images/clock.png" alt="puna" height="120px;" width="120px;">
-            <!-- <h5 class="card-header2"> Nuk punojme te dielen</h5>
-            <p class="card-text2">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
-        <button class="card-buttons">Test Button</button> -->
+        
         </div>
          </div>
 
@@ -113,9 +96,8 @@
         <!-- Pjesa Slider -->
 
         </main>
- 
-        <footer> <p class="tekstifooter"> 2020 Dhjetor </p></footer>
-    
-   
+
+    <?php
+    include '../inc/footer.php' ?>
 </body>
 </html>

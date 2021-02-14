@@ -1,4 +1,4 @@
-<?php include('server.php');
+<?php include('../checks/server.php');
 
 
 ?>
@@ -35,10 +35,6 @@
                 <p class="tekstiAU"> Regjistrohuni këtu </p>
              </div>
         </div>  
-        
-        <div class="history">
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt<br> magnam nulla rerum, fuga esse, a modi fugit in quam temporibus molestias et dolore, iste consequatur<br> facilis aliquid quae quod cum.</p>
-        </div>
         <!--Mbarimi  i header-->
 
     <div class="header">
@@ -47,7 +43,7 @@
 
  <form method="post" action="register.php"> 
  <!-- qetu shfaqen erroret-->
- <?php include('errors.php'); ?>
+ <?php include('../checks/errors.php'); ?>
     <div class="input-group">
         <label> Emri i përdoruesit: </label>
         <input type="text" name="username" value="<?php echo $username; ?>">

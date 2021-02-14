@@ -32,12 +32,7 @@
                 <p class="tekstiAU"> Hyni këtu </p>
              </div>
         </div>  
-        <div class="history">
-            
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt<br> magnam nulla rerum, fuga esse, a modi fugit in quam temporibus molestias et dolore, iste consequatur<br> facilis aliquid quae quod cum.</p>
-        </div>
         <!--Mbarimi  i header-->
-
 </header>
     <div class="header">
         <h2>HYRJA</h2>
@@ -55,7 +50,7 @@
         <input type="password" name="password">
     </div>
     <div class="input-group">
-        <button type="submit" name="login" class="btn"> Hyni </button>
+        <button type="submit" name="login-btn" class="btn"> Hyni </button>
     </div>
     <p> Ende nuk jeni anëtar?
         <a href="register.php"> Regjistrohu</a>

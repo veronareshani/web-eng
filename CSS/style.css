@@ -1,10 +1,14 @@
 body, html {
-    margin: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
     background: rgba(213, 206, 206, 0.435);
 
 }
+
 
 header {
     padding: 15px 20px;
@@ -288,4 +292,51 @@ justify-content: center;
 text-align: center;
 font-size: 15px;
 padding-top: 8px;
+}
+
+
+
+
+/* ----Tablet-------- */
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    
+
+.logo {
+    float: left;
+    width: 120px;
+    height: 120px;
+    padding: 14px 45px;
+}
+
+#navbarr {
+    margin: 68px 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tekstidhebutonatbrendafotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    color: #FEFCAD;
+    margin-top: 300px;
+    margin-left: -35px;
+    max-width: 600px;
+}
+
+}
+
+
+
+/* --------- iPhone X ------------- */
+@media only screen and (min-width: 375px) and (max-width: 767px) { 
+    
 }

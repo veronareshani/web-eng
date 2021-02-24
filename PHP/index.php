@@ -1,5 +1,8 @@
-<?php 
+<?php     
+    include "../act/db.php";
+    session_start();
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,25 +15,25 @@
         <main>
       <div class="parent-container">
     <div class="bg-img">
-    <!-- <div class="container"> -->
-        <header><!--Beginning of header div-->
-            <div class="logoofWeb"> <!--Beginning of logo div-->
+
+        <header>
+            <div class="logoofWeb">
                <a href="#"> <img class="logo" src="../images/doglogo1.png" alt="Logo"> </a>
-            </div> <!--End of logo div-->
-            <?php include '../inc/menu.php'?><!--End of navbar-->
-      <!--Beginning of header div-->
+            </div> 
+            <?php include '../inc/menu.php'?>
+
 		</header>
     
     <div class="tekstidhebutonatbrendafotos"> 
         <h1>Ndihmo kafshet ne nevoje </h1>
-        <div class="butonat">  <!--Beginning of buttons div-->
+        <div class="butonat">  
             <a href="contact.html"><button class="info-btn">Dua te ndihmoj </button> </a>
             <a href="../PHP/register.php"> <button class="info-btn">Dua te jem pjese</button> </a>
-        </div>   <!--End of buttons div-->
-    </div> <!--Beginning and ending of text div-->
+        </div>   
+    </div> 
     </div>
    
-    <div class="Row2" id="testt"> <!--Beginner of cards container-->
+    <div class="Row2" id="testt"> 
         <div class="Column2">
             <img src="../images/phone.png" alt="puna" height="120px;" width="120px;">
         </div>
@@ -43,11 +46,8 @@
          </div>
 
 
-
-   <!-- test -->
-     <div class="Row3" id="testt"> <!--Beginner of cards container-->
+     <div class="Row3" id="testt"> 
         <div class="Column3">
-            <!-- <h3>+38344000000</h3> -->
             <h5  class="card-header"> Numri kontaktues </h5>
             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
@@ -60,13 +60,12 @@
             <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur </p>
       
         </div>
-         </div> <!--End of cards container-->
+         </div> 
          
         
          </div>
         </div>  
 
-        <!-- Pjesa Slider -->
         <div class="slidercontainer">  
             <div class="showSlide fade">  
                 <img src="../images/SliderImages/dog1.jpg" />  
@@ -85,15 +84,12 @@
                 <img src="../images/SliderImages/dog4.jpg" />  
                 <div class="content"></div>  
             </div>  
-            <!-- Navigation arrows -->  
             <a class="left" onclick="nextSlide(-1)"><</a>  
             <a class="right" onclick="nextSlide(1)">></a>  
         </div>  
       
         <script src="../JS/script.js"></script>  
         
-
-        <!-- Pjesa Slider -->
 
         </main>
 

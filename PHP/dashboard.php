@@ -1,3 +1,8 @@
+<?php     
+    include "../act/db.php";
+    session_start();
+?>
+
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -32,7 +37,7 @@
 
         </main>
 
-        <?php
-include '../inc/footer.php' ?>
+    <?php
+        include '../inc/footer.php' ?>
     </body>
 </html>

@@ -1,4 +1,2 @@
-    <div class="footer">
-        <h1>&copy; 2020 HHW</h1>
-    </div>
+<footer> <p class="tekstifooter"> 2020 Dhjetor </p></footer>
 

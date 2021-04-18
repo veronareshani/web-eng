@@ -15,13 +15,12 @@
     </head>
     <body>
           
-        <header><!--Beginning of header div-->
-            <div class="logoofWeb"> <!--Beginning of logo div-->
+        <header>
+            <div class="logoofWeb"> 
                <a href="#"> <img class="logo" src="../images/doglogo1.png" alt="Logo"> </a>
-            </div> <!--End of logo div-->
-            <?php include '../inc/menu.php'?> <!--End of navbar--u/>
+            </div>
+            <?php include '../inc/menu.php'?> 
       
-            <!--Beginning of header div-->
 		</header>
             <main>
 
@@ -29,10 +28,9 @@
                     <div class="solid">
                         <p class="tekstiAU"> Lexoni per bllogun tone </p>
                      </div>
-                </div>  <!--Mbarimi  i header-->
+                </div>  
 
-
-                <!--BLOGU-->
+            
                 <section>
                   <div class="contanier2">
                       <div class="site-content">
@@ -253,7 +251,7 @@
 
 
 
-                <!--BLOGU-->
+               
 
 
             </main>

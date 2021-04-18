@@ -36,4 +36,3 @@ function usernameAndPasswordCorrect($username, $password)
         }
     }
 }
-?>

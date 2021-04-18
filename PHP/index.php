@@ -27,7 +27,7 @@
     <div class="tekstidhebutonatbrendafotos"> 
         <h1>Ndihmo kafshet ne nevoje </h1>
         <div class="butonat">  
-            <a href="contact.html"><button class="info-btn">Dua te ndihmoj </button> </a>
+            <a href="contact.php"><button class="info-btn">Dua te ndihmoj </button> </a>
             <a href="../PHP/register.php"> <button class="info-btn">Dua te jem pjese</button> </a>
         </div>   
     </div> 

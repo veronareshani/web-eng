@@ -11,15 +11,15 @@
         mysqli_num_rows($result);
         // Creating an array of that row to access the data
         $row = $result->fetch_assoc();
-        // Kto duhesh me dit qka bon se sje budall
+
         if ($row['admin'] == 1) {
             include "../inc/menuadmin.php";
         } else if(isset($username)){
             include "../inc/menuregister.php";
         } else {
-            include "../inc/header.php";
+            include "../inc/menu.php";
         }
     } else {
-        include "../inc/header.php";
+        include "../inc/menu.php";
     }
 ?>

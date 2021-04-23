@@ -14,13 +14,13 @@ if(isset($_POST['regjistoru1'])){
     $user_email = test_input($_POST["username"]);
     $password = test_input($_POST["password"]);
 
-    $sql = "SELECT * FROM users Where Username='$user_email'";
+    $sql = "SELECT * FROM Klientat Where Username='$user_email'";
     $result2 = $conn->query($sql);
 
     if(mysqli_num_rows($result2)>0){
         $signupError = "Ky perdorues Ekziston!";
     }else{
-        $sql2 = "INSERT INTO users (`Emri`,`Username`,`Passwordi`)
+        $sql2 = "INSERT INTO Klientat (`Emri`,`Username`,`Passwordi`)
          VALUES ('$username','$user_email','$password')";
 
         if($conn->query($sql2)==TRUE){

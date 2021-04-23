@@ -4,6 +4,6 @@
         <li><a href="about.php">Rreth Nesh</a></li>
         <li><a href="blog.php">Bllogu</a></li>
         <li><a href="contact.php">Sugjerimet</a></li>
-        <li><a href="login.php">Kyqu</a></li>
+        <li><a href="../act/signout.php">Log OUT</a></li>
     </ul>
 </nav>

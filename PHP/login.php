@@ -28,8 +28,8 @@
         <button id="submit" type="submit" class="input submit" name = "login_btn" value="Log in" onclick="validate(0)">KYQU</button>
       </div>
     </form>
-    <?php include "../act/signupfunction.php";?>
-    <form  method="POST">
+    <?php include "../act/signupfunction.php"; ?>
+        <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
       <div class="register forms hidden"id="formasec">
         <label for="">Name:</label>
         <input type="text" name="emri" class="input register-element" placeholder="Name..." required/>
@@ -37,7 +37,9 @@
         <input type="text" name="username" class="input register-element" placeholder="username..." required/>
         <label for="">Password:</label>
         <input type="password" name="password" class="input register-element" placeholder="password..." required/>
+        <span class="wrong"><?php echo $signupError; ?></span>
         <button id="submit" type="submit" name='regjistoru1' class="input submit" value="regjistrohu" onclick="validate(1)">REGJISTROHU</button> 
+
       </div>
     </form>
   </div>

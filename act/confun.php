@@ -1,25 +1,33 @@
 <?php
 include 'db.php';
 
-function test_input($data){
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
-}
-
-if (isset($_POST['submit'])){
-    $firstName = test_input($_POST['fisrtName']);
-    $lastName = test_input($_POST['lastName']);
-    $username = test_input($_POST['username']);
-    $message = test_input($_POST['topic']);
-
-    $sql = "INSERT INTO mesazhet ('fistName','lastName','username','message')
-    VALUES ('$fistName','$lastName','$username','$message')";
-
-    if($conn->query($sql)){
-        echo"<scipt>alert('Done!');</script>";
+    // Converting special characters to HTML enteties to prevent anyone from injecting code
+    function test_input($data) {
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
     }
-}
-$conn->close();
+    // When submit is clicked
+    if (isset($_POST['submit'])) {
+        // Getting variables from inputs
+        $firstName = test_input($_POST["firstName"]);
+        $lastName = test_input($_POST["lastName"]);
+        $username = test_input($_POST["username"]);
+        $message = test_input($_POST["subject"]);
+        // Inserting value in mesazhet table
+        $sql = "INSERT INTO mesazhet (firstName, lastName, username, message)
+        VALUES('$firstName','$lastName','$username','$message')";
+        // If data is sent in the db succesfully
+        if ($conn->query($sql)) {
+            echo 
+            "
+                <script>
+                    alert('Message sent succesfully!');
+                </script>
+            ";
+        }
+    }
+    // Clossing database connection
+    $conn->close();
 ?>

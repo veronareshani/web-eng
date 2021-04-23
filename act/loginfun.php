@@ -6,12 +6,13 @@
     if (isset($_POST['login_btn'])) {
         $username = $_POST["username"];
         $password = $_POST["password"];
-
-        $sql = "SELECT * FROM users WHERE Username = '$username' and Passwordi = '$password'";
-        $result = $conn->query($sql);
-
+        // Selecting data from db where username and password are the same as the user typed
+        $sql = "SELECT * FROM klientat WHERE Username = '$username' and Passwordi = '$password'";
+        $result = $conn->query($sql); // Executing SQL code
+        // If there is a row that meets the conditions this code is executed
         if (mysqli_num_rows($result) > 0) {
             while($row = $result->fetch_assoc()) {
+                // Saving row data in sessions
                 $_SESSION['id'] = $row['Klientat_Id'];
                 $_SESSION['username'] = $row['Username'];
                 $_SESSION['password'] = $row['Passwordi'];

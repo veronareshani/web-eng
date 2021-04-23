@@ -23,6 +23,7 @@
   <!--Beginning of header div-->
 </header>
     <main>
+    <?php include "../act/confun.php";?>
       <div class="row">
         <div class="Container" id="form_container">
             <h2 class="tekstikontaktM">Na Sugjeroni</h2>
@@ -33,15 +34,21 @@
     
                 <div class="row">
                     <div class="col-sm-6 form-group">
-                      <div class="emri5"><label for="name" class="dizajnipara">
-                            Emri dhe Mbiemri :</label>
+                    <div class="emri5"><label for="name" class="dizajnipara">
+                            Emri  :</label>
                           </div> 
-                        <input type="text" class="form-control" id="name" name="name">
+                        <input type="text" class="form-control" id="name" name="firstName">
                     </div>
+                    <div class="emri5"><label for="name" class="dizajnipara">
+                             Mbiemri :</label>
+                          </div> 
+                        <input type="text" class="form-control" id="name" name="lastName">
+                    </div>
+                    
                     <div class="col-sm-6 form-group">
                       <div class="emri5"> <label for="email" class="dizajnipara">
                             E-maili juaj:</label>
-                      </div> <input type="text" class="form-control email-validation" id="email" name="email" >
+                      </div> <input type="text" class="form-control email-validation" id="email" name="username" >
                     </div>
                   </div>
                 
@@ -49,7 +56,7 @@
                   <div class="col-sm-12 form-group">
                     <div class="emri5"> <label for="message" class="dizajnipara">
                           Mesazhi juaj:</label>
-                     </div> <textarea class="form-control1" type="textarea" id="message" name="message" maxlength="6000" rows="7" style="width:400px; height:105px;" placeholder="Ju lutem shkruani sygjerimet tuaja"></textarea>
+                     </div> <textarea class="form-control1" type="submit" id="subject" name="subject" maxlength="6000" rows="7" style="width:400px; height:105px;" placeholder="Ju lutem shkruani sygjerimet tuaja"></textarea>
                      <div id="error-message"></div>
                     </div>
               </div>
